@@ -1,0 +1,22 @@
+{
+  "name": "blog_app",
+  "version": "1.0.0",
+  "description": "CRUD blog app ",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "author": "Denzel Erinne",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "handlebars": "^4.7.7",
+    "jade": "^1.11.0"
+  },
+  "devDependencies": {
+    "expect.js": "^0.3.1",
+    "mocha": "^10.2.0",
+    "superagent": "^8.0.9"
+  }
+}
